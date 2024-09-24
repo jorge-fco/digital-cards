@@ -1,4 +1,32 @@
-.sass-cache/
+#= 🔌 CMS
+/assets/
+/kirby/
+/content/
+/media/
+/site/cache/
+/site/accounts/
+/site/sessions/
+/site/config/.license
+
+/site/templates/
+/site/blueprints/
+/site/snippets/
+
+#= 📄 FILES
+.lock
+Icon
+.DS_Store
+desktop.ini
+prepros.cfg
+node_modules
+prepros.config
+prepros-6.config
+*.sublime-workspace
+/.vscode
+/.idea
+
+#= ✍️ SASS
+sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
