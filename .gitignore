@@ -10,7 +10,8 @@
 
 /site/templates/
 /site/blueprints/
-/site/snippets/
+/site/snippets/*
+!/site/snippets/icons/
 
 #= 📄 FILES
 .lock
