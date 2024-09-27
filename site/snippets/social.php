@@ -1,6 +1,6 @@
 <ol class="card__footer__social" role="social">
 	<?php if($page->parent()->facebook() != '') : ?>
-		<li role="options">
+		<li role="option">
 			<a href="<?= $page->parent()->facebook() ?>" target="_blank" rel="nofollow noreferrer" tabindex="0" role="link">
 				<?php snippet('icons/facebook'); ?>
 			</a>
@@ -8,7 +8,7 @@
 	<?php endif ?>
 
 	<?php if($page->parent()->instagram() != '') : ?>
-		<li role="options">
+		<li role="option">
 			<a href="<?= $page->parent()->instagram() ?>" target="_blank" rel="nofollow noreferrer" tabindex="0" role="link">
 				<?php snippet('icons/instagram'); ?>
 			</a>
@@ -16,7 +16,7 @@
 	<?php endif ?>
 
 	<?php if($page->parent()->linkedin() != '') : ?>
-		<li role="options">
+		<li role="option">
 			<a href="<?= $page->parent()->linkedin() ?>" target="_blank" rel="nofollow noreferrer" tabindex="0" role="link">
 				<?php snippet('icons/linkedin'); ?>
 			</a>

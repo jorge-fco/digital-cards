@@ -1,4 +1,4 @@
-# Digital cards
+# Digital Cards
 
 ## 📁 Pages
 - Cards
@@ -8,18 +8,19 @@
 
 ## 🏦 Company
 - logo
+- positions
 - social
 - address
-- google maps
+- google maps 
 - website
 
 ## 🗄 User
-- first_name
-- last_name
-- position
-- profile
-- qr_code
-- email
-- lada
-- phone
-- whatsapp
+- profile (`image`)
+- first_name (`text`)
+- last_name (`text`)
+- position (`select`)
+- email (`email`)
+- lada (`select`)
+- phone (`tel`)
+- whatsapp (`tel`)
+- qr_code (`image`)
