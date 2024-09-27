@@ -8,9 +8,11 @@
 
 		// Vars
 		$format = array(' ', '-', '(', ')');
+		$whatsapp_lada = 52;
 		$whatsapp_value = $page->whatsapp();
 		$whatsapp_format = trim($whatsapp_value);
 		$whatsapp_number = str_replace($format, '', $whatsapp_format);
+		// https://faq.whatsapp.com/5913398998672934
 		$whatsapp_url = 'https://api.whatsapp.com/send/?phone=';
 		$whatsapp_text = '?text=Hola';
 
@@ -49,6 +51,7 @@
 		// Set template
 		return [
 			'whatsapp_url' => $whatsapp_url,
+			'whatsapp_lada' => $whatsapp_lada,
 			'whatsapp_number' => $whatsapp_number
 		];
 	}
