@@ -6,6 +6,14 @@
 
 	return function ($page) {
 
+		// Vars
+		$format = array(' ', '-', '(', ')');
+		$whatsapp_value = $page->whatsapp();
+		$whatsapp_format = trim($whatsapp_value);
+		$whatsapp_number = str_replace($format, '', $whatsapp_format);
+		$whatsapp_url = 'https://api.whatsapp.com/send/?phone=';
+		$whatsapp_text = '?text=Hola';
+
 		//= POST
 		if (r::is('post') == true) {
 			// Set
@@ -40,7 +48,8 @@
 
 		// Set template
 		return [
-			//
+			'whatsapp_url' => $whatsapp_url,
+			'whatsapp_number' => $whatsapp_number
 		];
 	}
 ?>

@@ -7,7 +7,6 @@
 /site/accounts/
 /site/sessions/
 /site/config/.license
-
 /site/templates/
 /site/blueprints/
 /site/snippets/*
