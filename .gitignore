@@ -7,8 +7,9 @@
 /site/accounts/
 /site/sessions/
 /site/config/.license
-/site/templates/
 /site/blueprints/
+/site/templates/*
+!/site/templates/card.php
 
 #= 📄 FILES
 .lock
